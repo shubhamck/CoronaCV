@@ -4,10 +4,10 @@ from playsound import playsound
 import threading
 c = threading.Condition()
 # Detectors
-face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-eye_cascade = cv2.CascadeClassifier("haarcascade_eye.xml")
-nose_cascade = cv2.CascadeClassifier("haarcascade_nose.xml")
-mouth_cascade = cv2.CascadeClassifier("haarcascade_mouth.xml")
+face_cascade = cv2.CascadeClassifier("models/haarcascade_frontalface_default.xml")
+eye_cascade = cv2.CascadeClassifier("models/haarcascade_eye.xml")
+nose_cascade = cv2.CascadeClassifier("models/haarcascade_nose.xml")
+mouth_cascade = cv2.CascadeClassifier("models/haarcascade_mouth.xml")
 
 # global vars
 ALERT_USER = False

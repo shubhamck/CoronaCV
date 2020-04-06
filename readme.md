@@ -14,4 +14,6 @@ To help with this, I created this app which runs in the background, using your l
 * [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
 * [haarcascade_nose.xml](https://github.com/sightmachine/SimpleCV/blob/master/SimpleCV/Features/HaarCascades/nose.xml)
 * [haarcascade_mouth.xml](https://github.com/sightmachine/SimpleCV/blob/master/SimpleCV/Features/HaarCascades/mouth.xml)
-* Download the above trained models for eye, face, noise and mouth and store them in the files with same names and extension
+* Make a directory `mkdir models`
+* `cd models`
+* Download the above trained models for eye, face, noise and mouth and store them in the files with same names and extension in `models` directory

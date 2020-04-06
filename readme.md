@@ -6,7 +6,7 @@ To help with this, I created this app which runs in the background, using your l
 ## How to run
 * `git clone https://github.com/shubhamck/CoronaCV`
 * `cd CoronaCV`
-* `python face_detector.p`
+* `python face_detector.py`
 
 ## Prerequisites
 * OpenCV for Python `pip install opencv-python`
